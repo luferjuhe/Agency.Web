@@ -1,0 +1,28 @@
+﻿@model List<UserViewModel>
+
+
+<div class="table-responsive">
+    <table class="table">
+        <thead class="thead-primary">
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Email</th>
+                <th>Fecha Alta</th>
+                <th>Fecha Baja</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.UserId</td>
+                    <td>@user.Name</td>
+                    <td>@user.Email</td>
+                    <td>@user.CreationDate</td>
+                    <td>@user.InactiveDate</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

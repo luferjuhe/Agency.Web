@@ -1,0 +1,27 @@
+﻿@model UserViewModel
+
+<div class="container mt-5">
+    <form method="post" asp-action="Add">
+        <div class="row">
+            <div class="col-md-3">
+                <label>Nombre</label>
+                <input asp-for="Name" class="form-control mt-2" />
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-3">
+                <label>Correo</label>
+                <input asp-for="Email" class="form-control mt-2" />
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-3">
+                <label>Contraseña</label>
+                <input asp-for="Password" class="form-control mt-2" />
+            </div>
+        </div>
+        <button class="btn btn-success mt-4" type="submit">Guardar</button>
+    </form>
+</div>
