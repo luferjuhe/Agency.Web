@@ -1,11 +1,12 @@
 ﻿@model UserViewModel
 
 <div class="container mt-5">
+    <input type="hidden" asp-for="UserId"/>
     <form method="post" asp-action="Add">
         <div class="row">
-            <div class="col-md-3 ">
+            <div class="col-md-3">
                 <label>Nombre</label>
-                <input asp-for="Name"id="inputadd"  class="form-control mt-2 inputadd" />
+                <input asp-for="Name" class="form-control mt-2" />
             </div>
         </div>
         <br />

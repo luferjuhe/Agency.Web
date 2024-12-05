@@ -7,7 +7,7 @@ using Agency.Web.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddRazorPages();
-builder.Services.AddAuthentication("Restaurant.Web").AddCookie("Restaurant.Web", options =>
+builder.Services.AddAuthentication("Agency.Web").AddCookie("Agency.Web", options =>
 {
     options.ExpireTimeSpan = TimeSpan.FromMinutes(20);
     options.LoginPath = "/Account/LogIn";
@@ -15,8 +15,8 @@ builder.Services.AddAuthentication("Restaurant.Web").AddCookie("Restaurant.Web",
 
 var mvc = builder.Services.AddControllersWithViews(options =>
 {
-    //var policy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
-    //options.Filters.Add(new AuthorizeFilter(policy));
+    var policy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
+    options.Filters.Add(new AuthorizeFilter(policy));
 });
 
 builder.Services.AddSession(options =>

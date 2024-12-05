@@ -1,0 +1,32 @@
+﻿@model LogInViewModel
+@{
+    Layout = "_LayoutLogIn";
+    ViewBag.Title = "LogIn";
+}
+
+
+<div class=" mt-5">
+    <div class="col-md-5 mx-auto ml-4">
+        <div class="card">
+            <div class="card-body px-5 pt-5 pb-2 text-center">
+                <h3 class="text-primary login-text"> Iniciar Sesión</h3>
+                <form asp-action="LogIn" method="post" class="mb-5">
+                    <div class="form-group mt-3">
+                        <i class="fa-solid fa-user"></i>
+                        <input asp-for="Email" class="input-form" placeholder="Usuario" />
+                    </div>
+                    <div class="form-group mt-3">
+                        <i class="fa-solid fa-lock"></i>
+                        <input asp-for="Password" class="input-form " placeholder="Contraseña" />
+                    </div>
+                    <button type="submit" class="mt-5">Entrar</button>
+                </form>
+            </div>
+            <div class="card-footer" style="height:150px">
+                <div class="text-center">
+                    <img src="~/Images/2.jpg" class="img-fluid w-100" style="height:120px;" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

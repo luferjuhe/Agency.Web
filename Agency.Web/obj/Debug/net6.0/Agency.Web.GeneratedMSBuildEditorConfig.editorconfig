@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/usuario/Projects/Agency.Web/Agency.Web
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/usuario/Projects/Agency.Web/Agency.Web/Views/Account/LogIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Mb2dJbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/usuario/Projects/Agency.Web/Agency.Web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -25,6 +29,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/usuario/Projects/Agency.Web/Agency.Web/Views/Users/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlcnMvQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/usuario/Projects/Agency.Web/Agency.Web/Views/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlcnMvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/usuario/Projects/Agency.Web/Agency.Web/Views/Users/Index.cshtml]

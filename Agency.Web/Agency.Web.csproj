@@ -13,6 +13,7 @@
     <None Remove="Views\" />
     <None Remove="Views\Users\" />
     <None Remove="Views\Shared\" />
+    <None Remove="Views\Account\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Services\" />
@@ -22,6 +23,8 @@
     <Folder Include="Views\Users\" />
     <Folder Include="wwwroot\" />
     <Folder Include="Views\Shared\" />
+    <Folder Include="Views\Account\" />
+    <Folder Include="wwwroot\css\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.36" />
@@ -39,5 +42,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\" />
+    <Content Remove="wwwroot\css\" />
   </ItemGroup>
 </Project>

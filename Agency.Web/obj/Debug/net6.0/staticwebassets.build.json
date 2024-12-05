@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7SUFvwi1BrHhTSulfIl6WR8K5+GmU+EeIX2oFIIICD0=",
+  "Hash": "dJynA3NnEC90M4l/WYl2edcCKeouclEHuNNliFnjmcE=",
   "Source": "Agency.Web",
   "BasePath": "_content/Agency.Web",
   "Mode": "Default",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "/Users/usuario/Projects/Agency.Web/Agency.Web/wwwroot/css/site.css",
+      "SourceId": "Agency.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/usuario/Projects/Agency.Web/Agency.Web/wwwroot/",
+      "BasePath": "_content/Agency.Web",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/site.css"
+    },
     {
       "Identity": "/Users/usuario/Projects/Agency.Web/Agency.Web/wwwroot/lib/bootstrap/css/bootstrap-grid.css",
       "SourceId": "Agency.Web",
